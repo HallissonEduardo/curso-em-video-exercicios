@@ -1,6 +1,19 @@
 from datetime import date
+from abc import ABC
 
 #hoje = date.today()
+
+
+
+class Universidade(ABC):
+    
+
+
+
+
+
+
+
 
 class aluno:
 
@@ -8,6 +21,7 @@ class aluno:
         self.nome: str = ""
         self.matricula: int = 0
         self.nascimento: str = ""
+        self.bolsa: int = 0
         self.data = date.today()
 
 
@@ -21,11 +35,12 @@ class aluno:
         print("Olá bem vindo a Anhanguera!")
 
 
+
         print("=== CADASTRAR ALUNO ===")
         self.nome = input("Qual o seu nome: ")
         # MATRICULO VOU DEIXAR PARA GERAR AUTOMATICO.
         self.nascimento = input("Qual a sua data de nascimento: ")
-        self.
+
 
 
 if __name__ == '__main__':
