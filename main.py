@@ -25,7 +25,7 @@ class aluno:
         self.nome = input("Qual o seu nome: ")
         # MATRICULO VOU DEIXAR PARA GERAR AUTOMATICO.
         self.nascimento = input("Qual a sua data de nascimento: ")
-        sel
+        self.
 
 
 if __name__ == '__main__':
