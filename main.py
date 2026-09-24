@@ -5,8 +5,10 @@ from abc import ABC
 
 
 
-class Universidade(ABC):
-    
+class Universidades(ABC):
+
+    def __init__(self, nome):
+        pass
 
 
 
@@ -15,7 +17,7 @@ class Universidade(ABC):
 
 
 
-class aluno:
+class anhamguera(Universidades):
 
     def __init__(self, ):
         self.nome: str = ""
